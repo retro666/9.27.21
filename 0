@@ -1,0 +1,6 @@
+#!/bin/bash
+if (($(cat *.cpp | tr -cd '(' | wc -m) != $(cat *.cpp | tr -cd ')' | wc -m)))
+then
+echo -en "Not "
+fi
+echo OK
