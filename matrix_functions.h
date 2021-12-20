@@ -99,7 +99,3 @@ int det_matrix(int* m, int s) {
 	default: return 1;
 	}
 }
-
-int main(){
-	return 0;
-}
