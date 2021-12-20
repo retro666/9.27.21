@@ -1,5 +1,3 @@
-﻿#include <iostream>
-
 template<typename T> inline T* create_matrix(size_t c, size_t r) {
 	return new T[c * r];
 }
